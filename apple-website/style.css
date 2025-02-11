@@ -12,8 +12,8 @@
 
 /*VARIAVEIS EM CSS:*/
 :root{
-    --corAC: #f1f1f1;
-    --corAE: #959595;
+    --corAC: #d9d9d9;
+    --corAE: #707070;
     --corB: #ffffff;
     --corP: #0C0910;
 
@@ -69,6 +69,7 @@ nav{
 }
 
 nav > a{
+    
     transition: 0.4s;
     font-weight: bold;
     text-decoration: none;
@@ -76,15 +77,14 @@ nav > a{
     padding: 10px;
     margin-right: 16px;
     text-shadow: 2px 2px 2px var(--corP);
+    border-radius: 5px;
+    transition: 0.4s;
 }
 
 nav > a:hover{
-    transition: 0.4s;
-
     background-color: var(--corAC);
-    border-radius: 5px;
     color: var(--corP);
-    text-shadow: 0px 0px 0px white;
+    text-shadow: none;
 }
 
 img{
@@ -193,7 +193,7 @@ input:hover{
 
 main strong{
     color: var(--corAE);
-    text-shadow: 0px 0px 1.3px var(--corP);
+    text-shadow: 0px 0px 1px var(--corP);
 }
 
 .video{
