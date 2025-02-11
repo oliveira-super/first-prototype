@@ -59,6 +59,8 @@ header > p{
 }
 
 nav{
+    display: flex;
+    flex-wrap: wrap;
     color:var(--corB);
     background-color: var(--corAE);
     padding: 10px;
@@ -72,7 +74,7 @@ nav > a{
     text-decoration: none;
     color: var(--corB);
     padding: 10px;
-
+    margin-right: 16px;
     text-shadow: 2px 2px 2px var(--corP);
 }
 
